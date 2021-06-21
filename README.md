@@ -2,9 +2,9 @@
 A python script that generates index.html files for file indexing.
 
 ## Usage
-Simply type `html-index <path>`. Replace the `<path>` with the path to the directory you want to generate indexes for.
+Simply type `index <path>`. Replace the `<path>` with the path to the directory you want to generate indexes for.
 
-For example: `html-index ./`
+For example: `index ./`
 
 ## Note
 It'll ignore any file that starts with a `.`
