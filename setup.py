@@ -6,7 +6,7 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
     requirements = fh.read()
 
 setup(
-    name='html-index',
+    name='html_index',
     version='0.1',
     author='Madeline Sparkle',
     author_email='muguang138@gmail.com',
@@ -15,7 +15,7 @@ setup(
     long_description='A python script that generates index.html files for file indexing.',
     long_description_content_type="text",
     url='https://github.com/Mg138/html-index',
-    py_modules=['html-index'],
+    py_modules=['html_index'],
     packages=find_packages(),
     install_requires=[requirements],
     python_requires='>=3.8',
@@ -25,6 +25,6 @@ setup(
     ],
     entry_points='''
         [console_scripts]
-        html-index=html-index:main
+        index=html_index:main
     '''
 )
