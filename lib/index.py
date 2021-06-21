@@ -52,6 +52,6 @@ class Index:
         return ''.join(strings)
 
     def to_html(self, index_template: str, file_template: str) -> str:
-        return index_template.replace('#DIR', self.path.__str__()) \
+        return index_template.replace('#DIR', self.path.as_posix()) \
             .replace('#TITLE', self.path.name) \
             .replace('#FILES', self.files_to_html(file_template))

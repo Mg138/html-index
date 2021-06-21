@@ -6,10 +6,17 @@ from lib.index import Index
 
 
 class Writer:
-    def __init__(self, assets: Assets):
-        self.__index_template = assets.index_template().read_text()
-        self.__file_template = assets.file_template().read_text()
+    def __init__(self, assets: Assets, title, parent_dir, filename, size, modified):
         self.__icon_folder = assets.icon_folder()
+
+        self.__index_template = assets.index_template() \
+            .read_text() \
+            .replace("{TITLE}", title) \
+            .replace("{PARENT}", parent_dir) \
+            .replace("{FILENAME}", filename) \
+            .replace("{SIZE}", size) \
+            .replace("{MODIFIED}", modified)
+        self.__file_template = assets.file_template().read_text()
 
     def write(self, indexes: List[Index]):
         for index in indexes:

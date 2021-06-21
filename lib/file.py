@@ -45,6 +45,6 @@ class File:
 
     def to_html(self, template: str) -> str:
         return template.replace('#FILENAME', self.filename) \
-            .replace('#ICON', self.icon.relative_path.__str__()) \
+            .replace('#ICON', self.icon.relative_path.as_posix()) \
             .replace('#SIZE', self.size) \
             .replace('#MODIFIED', self.modified)
