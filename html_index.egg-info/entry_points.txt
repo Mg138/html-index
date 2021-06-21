@@ -1,4 +1,0 @@
-
-        [console_scripts]
-        index=html-index:main
-    
