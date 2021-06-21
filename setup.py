@@ -13,7 +13,7 @@ setup(
     license='MIT License',
     description='HTML file indexing generator.',
     long_description='A python script that generates index.html files for file indexing.',
-    long_description_content_type="text",
+    long_description_content_type="text/plain",
     url='https://github.com/Mg138/html_index',
     py_modules=['html_index'],
     packages=find_packages(),

@@ -11,4 +11,4 @@ Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3.8
 Classifier: Operating System :: OS Independent
 Requires-Python: >=3.8
-Description-Content-Type: text
+Description-Content-Type: text/plain

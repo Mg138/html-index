@@ -2,15 +2,48 @@
 A python script that generates index.html files for file indexing.
 
 ## Usage
-Simply type `html-index <path>`. Replace the `<path>` with the path to the directory you want to generate indexes for.
+Simply type `index <path>`.
 
-For example: `html-index ./`
+Replace the `<path>` with the path to the directory you want to generate indexes for.
+
+For example: `index ./`
+
+### Optional Arguments
+```
+-h, --help                  show this help message and exit
+
+--title TITLE               change the title of the index.
+                            (`#DIR`: the directory path)
+                            (default: "Index of #DIR"
+
+--parent_dir PARENT_DIR     change the name of the "parent directory"
+                            button in the index.
+                            (default: "parent directory")
+
+--filename FILENAME         change the name of the field "File Name" in the table.
+                            (default: "File Name")
+
+--size SIZE                 change the name of the field "Size" in the table.
+                            (default: "Size")
+
+--modified MODIFIED         change the name of the field "Last Modified" in the table.
+                            (default: "Last Modified")
+```
+For example:
+```
+index --title "檢索中: #DIR"
+      --parent_dir "往上一層"
+      --filename "檔案名稱"
+      --size "大小"
+      --modified "最後修改日期"
+      ./
+```
 
 ## Note
 It'll ignore any file that starts with a `.`
 
 ## Customizing
-Under `html-index/assets`, there are several files.
+Under `html_index/assets`, there are several files.
 * `__file_template.html`
     * This is the template for indexed files, edit it if you want to change how the indexed files look.
 * `__index_template.html`
