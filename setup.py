@@ -14,17 +14,17 @@ setup(
     description='HTML file indexing generator.',
     long_description='A python script that generates index.html files for file indexing.',
     long_description_content_type="text",
-    url='<github url where the tool code will remain>',
-    py_modules=['my_tool', 'app'],
+    url='https://github.com/Mg138/html-index',
+    py_modules=['html-index'],
     packages=find_packages(),
     install_requires=[requirements],
-    python_requires='>=3.7',
+    python_requires='>=3.8',
     classifiers=[
         "Programming Language :: Python :: 3.8",
         "Operating System :: OS Independent",
     ],
     entry_points='''
         [console_scripts]
-        cooltool=my_tool:main
+        html-index=html-index:main
     '''
 )

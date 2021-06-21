@@ -2,7 +2,7 @@ import shutil
 from pathlib import Path
 from typing import List
 
-from src.html_index.lib.file import File
+from lib.file import File
 import logging
 
 

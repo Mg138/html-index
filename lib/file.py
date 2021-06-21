@@ -1,8 +1,8 @@
 import time
 from pathlib import Path
 
-from src.lib import byte_translate
-from src.lib import Icon, icon_manager
+from lib import byte_translate, icon_manager
+from lib.icon import Icon
 
 
 class File:

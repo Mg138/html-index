@@ -2,9 +2,9 @@ import os
 from pathlib import Path
 from typing import List
 
-from src.lib import reader
-from src.lib import File
-from src.lib import Icon, icon_folder, icon_manager
+from lib import reader, icon_manager
+from lib.file import File
+from lib.icon import icon_folder, Icon
 
 
 class Index:

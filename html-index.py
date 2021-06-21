@@ -2,6 +2,11 @@ import logging
 import sys
 from pathlib import Path
 
+from lib import icon_manager
+from lib.assets import Assets
+from lib.index import Index
+from lib.writer import Writer
+
 
 def main():
     args = sys.argv
