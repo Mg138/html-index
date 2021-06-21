@@ -20,246 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="875cf5d8-a56e-41d8-b809-e31e82696f67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/html_index/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html_index/assets/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html_index/util/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MANIFEST.in" beforeDir="false" afterPath="$PROJECT_DIR$/MANIFEST.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__file_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__file_template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/actionscript.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/actionscript.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/ai.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/ai.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/android.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/android.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/angular-component.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/angular-component.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/angular-directive.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/angular-directive.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/angular-guard.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/angular-guard.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/angular-pipe.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/angular-pipe.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/angular-resolver.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/angular-resolver.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/angular-routing.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/angular-routing.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/angular-service.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/angular-service.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/angular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/angular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/applescript.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/applescript.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/arduino.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/arduino.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/assembly.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/assembly.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/audio.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/audio.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/autohotkey.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/autohotkey.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/babel.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/babel.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/blade.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/blade.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/bower.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/bower.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/browserlist.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/browserlist.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/c.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/c.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/cabal.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/cabal.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/cargo-lock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/cargo-lock.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/certificate.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/certificate.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/changelog.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/changelog.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/clojure.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/clojure.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/cmake.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/cmake.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/cmd.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/cmd.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/coffee.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/coffee.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/coldfusion.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/coldfusion.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/conduct.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/conduct.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/console.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/console.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/contributing.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/contributing.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/cpp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/cpp.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/credits.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/credits.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/csharp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/csharp.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/css-map.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/css-map.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/css.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/css.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/dart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/dart.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/database.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/database.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/dlang.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/dlang.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/docker.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/docker.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/document.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/document.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/dvc.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/dvc.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/elixir-lock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/elixir-lock.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/elixir.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/elixir.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/elm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/elm.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/email.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/email.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/erlang.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/erlang.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/eslint.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/eslint.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/ex.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/ex.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/exe.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/exe.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/favicon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/favicon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/file_dark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/file_dark.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/file_lnk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/file_lnk.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/file_mdx.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/file_mdx.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/firebase.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/firebase.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/flash.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/flash.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/flow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/flow.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_assets.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_assets.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_assets_open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_assets_open.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_bower.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_bower.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_bower_open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_bower_open.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_ci.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_ci.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_ci_open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_ci_open.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_css.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_css.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_css_open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_css_open.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_dark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_dark.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_dist.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_dist.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_dist_open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_dist_open.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_git.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_git.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_git_open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_git_open.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_github.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_github.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_github_open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_github_open.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_gulp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_gulp.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_gulp_open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_gulp_open.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_images.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_images.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_images_open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_images_open.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_js.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_js.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_js_open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_js_open.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_light.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_light.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_nginx.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_nginx.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_nginx_open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_nginx_open.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_node.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_node.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_node_open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_node_open.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_open.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_root_dark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_root_dark.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_root_light.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_root_light.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_root_open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_root_open.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_sass.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_sass.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_sass_open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_sass_open.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_src.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_src.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_src_open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_src_open.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_test.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_test.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_test_open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_test_open.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_vscode.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_vscode.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/folder_vscode_open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/folder_vscode_open.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/font.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/font.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/fsharp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/fsharp.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/gatsby.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/gatsby.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/git.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/git.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/github.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/github.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/gitlab.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/gitlab.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/go.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/go.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/go_up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/go_up.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/gradle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/gradle.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/graphql.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/graphql.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/graphviz.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/graphviz.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/groovy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/groovy.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/grunt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/grunt.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/gulp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/gulp.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/haml.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/haml.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/handlebars.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/handlebars.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/haskell.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/haskell.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/haxe.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/haxe.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/html.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/html.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/image.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/image.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/ionic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/ionic.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/java.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/java.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/jenkins.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/jenkins.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/jest.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/jest.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/js.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/js.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/js_map.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/js_map.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/json.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/json.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/julia.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/julia.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/jupyter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/jupyter.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/key.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/key.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/kotlin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/kotlin.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/less.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/less.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/lib.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/lib.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/license.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/license.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/liquid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/liquid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/lua.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/lua.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/markdown.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/markdown.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/markojs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/markojs.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/markup.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/markup.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/matlab.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/matlab.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/mdx.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/mdx.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/mjml.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/mjml.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/movie.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/movie.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/mustache.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/mustache.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/mxml.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/mxml.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/nginx.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/nginx.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/node.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/node.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/note.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/note.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/now.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/now.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/npm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/npm.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/nunjucks.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/nunjucks.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/nuxtconfig.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/nuxtconfig.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/ocaml.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/ocaml.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/package-lock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/package-lock.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/pdf.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/pdf.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/perl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/perl.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/php.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/php.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/pipfile-lock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/pipfile-lock.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/pipfile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/pipfile.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/polymer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/polymer.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/postcss.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/postcss.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/powerpoint.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/powerpoint.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/prettier.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/prettier.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/procfile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/procfile.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/protobuf.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/protobuf.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/psd.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/psd.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/pug.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/pug.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/puppet.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/puppet.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/python.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/python.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/r.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/r.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/rails.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/rails.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/raml.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/raml.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/react.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/react.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/readme.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/readme.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/reason.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/reason.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/rest.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/rest.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/rollup.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/rollup.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/ruby.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/ruby.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/rust.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/rust.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/sass.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/sass.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/scala.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/scala.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/settings.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/settings.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/sketch.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/sketch.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/slim.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/slim.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/smallbasic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/smallbasic.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/source.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/source.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/sql-lite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/sql-lite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/sql.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/sql.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/storybook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/storybook.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/stylelint.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/stylelint.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/stylus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/stylus.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/sublime.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/sublime.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/svelte.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/svelte.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/svg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/svg.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/swc.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/swc.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/swift.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/swift.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/swig.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/swig.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/table.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/table.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/tailwind.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/tailwind.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/tcl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/tcl.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/terraform.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/terraform.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/test.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/test.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/tex.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/tex.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/todo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/todo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/tune.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/tune.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/twig.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/twig.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/typescript.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/typescript.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/typescript_def.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/typescript_def.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/unknown.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/unknown.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/url.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/url.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/virtual.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/virtual.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/visualstudio.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/visualstudio.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/vlang.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/vlang.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/vue.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/vue.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/webpack.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/webpack.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/word.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/word.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/xaml.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/xaml.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/xml.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/xml.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/yaml.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/yaml.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/yarn-lock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/yarn-lock.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/yarn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/yarn.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/zephyr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/zephyr.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__icons/zip.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__icons/zip.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/__index_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__index_template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/generate_icon.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/generate_icon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/icons.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html_index.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/assets.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/util/assets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/byte_translate.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/util/byte_translate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/file.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/util/file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/icon.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/util/icon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/util/index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/util/reader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/writer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/util/writer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -339,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1624268650092</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finally works">
+      <created>1624274482848</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624274482848</updated>
+    </task>
+    <task id="LOCAL-00004" summary="egg">
+      <created>1624274508503</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624274508503</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -352,11 +128,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="renamed" />
     <MESSAGE value="forgot to include assets.." />
-    <option name="LAST_COMMIT_MESSAGE" value="forgot to include assets.." />
+    <MESSAGE value="finally works" />
+    <MESSAGE value="egg" />
+    <option name="LAST_COMMIT_MESSAGE" value="egg" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="194" width="1092" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624271748959">
@@ -371,22 +150,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="306" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624271733958" />
-    <state width="1882" height="295" key="GridCell.Tab.0.bottom" timestamp="1624272524415">
+    <state width="1882" height="295" key="GridCell.Tab.0.bottom" timestamp="1624274863262">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1882" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624272524415" />
-    <state width="1882" height="295" key="GridCell.Tab.0.center" timestamp="1624272524415">
+    <state width="1882" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624274863262" />
+    <state width="1882" height="295" key="GridCell.Tab.0.center" timestamp="1624274863262">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1882" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624272524415" />
-    <state width="1882" height="295" key="GridCell.Tab.0.left" timestamp="1624272524415">
+    <state width="1882" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624274863262" />
+    <state width="1882" height="295" key="GridCell.Tab.0.left" timestamp="1624274863262">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1882" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624272524415" />
-    <state width="1882" height="295" key="GridCell.Tab.0.right" timestamp="1624272524415">
+    <state width="1882" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624274863262" />
+    <state width="1882" height="295" key="GridCell.Tab.0.right" timestamp="1624274863262">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1882" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624272524415" />
+    <state width="1882" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624274863262" />
     <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1624266893764">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
