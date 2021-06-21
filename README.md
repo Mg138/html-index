@@ -43,7 +43,7 @@ index --title "檢索中: #DIR"
 It'll ignore any file that starts with a `.`
 
 ## Customizing
-Under `html_index/assets`, there are several files.
+Under `html-index/assets`, there are several files.
 * `__file_template.html`
     * This is the template for indexed files, edit it if you want to change how the indexed files look.
 * `__index_template.html`
