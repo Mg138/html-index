@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="875cf5d8-a56e-41d8-b809-e31e82696f67" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html_index.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index.egg-info/SOURCES.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624274508503</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="moved requirements">
+      <created>1624275431338</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1624275431338</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,7 +141,8 @@
     <MESSAGE value="forgot to include assets.." />
     <MESSAGE value="finally works" />
     <MESSAGE value="egg" />
-    <option name="LAST_COMMIT_MESSAGE" value="egg" />
+    <MESSAGE value="moved requirements" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved requirements" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="194" width="1092" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624271748959">
