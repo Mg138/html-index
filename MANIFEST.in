@@ -1,2 +1,1 @@
-include LICENSE
-include assets
+graft src/html_index/assets

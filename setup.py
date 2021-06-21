@@ -1,30 +1,29 @@
-from setuptools import setup, find_packages
+import setuptools
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
-with open("requirements.txt", "r", encoding="utf-8") as fh:
-    requirements = fh.read()
 
-setup(
-    name='html_index',
-    version='1.0.2',
-    author='Madeline Sparkle',
-    author_email='muguang138@gmail.com',
-    license='MIT License',
-    description='HTML file indexing generator.',
-    long_description='A python script that generates index.html files for file indexing.',
-    long_description_content_type="text/plain",
-    url='https://github.com/Mg138/html-index',
-    py_modules=['html_index'],
-    packages=find_packages(),
-    install_requires=[requirements],
-    python_requires='>=3.8',
+setuptools.setup(
+    name="html-index",
+    version="1.0.3",
+    author="Madeline Sparkle",
+    author_email="muguang138@gmail.com",
+    description="HTML file indexing generator.",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/Mg138/html-index",
     classifiers=[
-        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    entry_points='''
-        [console_scripts]
-        index=html_index:main
-    '''
+    package_dir={"": "src"},
+    packages=setuptools.find_packages(where="src"),
+    entry_points={
+        'console_scripts': [
+            'index = html_index.index:main'
+        ]
+    },
+    python_requires=">=3.6",
+    include_package_data=True
 )

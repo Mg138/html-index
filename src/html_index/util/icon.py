@@ -5,7 +5,7 @@ from typing import List, Optional
 
 import yaml
 
-from lib.assets import Assets
+from .assets import Assets
 
 icon_folder = Path().joinpath('.icons')
 

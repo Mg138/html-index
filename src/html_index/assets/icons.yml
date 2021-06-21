@@ -395,7 +395,7 @@ less.svg:
   extensions: less
 
 lib.svg:
-  extensions: lib
+  extensions: util
 
 license.svg:
   extensions: license

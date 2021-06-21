@@ -1,8 +1,8 @@
 import logging
 from typing import List
 
-from lib.assets import Assets
-from lib.index import Index
+from .assets import Assets
+from .index import Index
 
 
 class Writer:

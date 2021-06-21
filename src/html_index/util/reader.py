@@ -2,7 +2,7 @@ import shutil
 from pathlib import Path
 from typing import List
 
-from lib.file import File
+from .file import File
 import logging
 
 

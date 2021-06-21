@@ -1,10 +1,10 @@
 import argparse
 from pathlib import Path
 
-from lib import icon_manager
-from lib.assets import Assets
-from lib.index import Index
-from lib.writer import Writer
+from .util import icon_manager
+from .util.assets import Assets
+from .util.index import Index
+from .util.writer import Writer
 
 
 def main():
