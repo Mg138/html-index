@@ -27,8 +27,6 @@ class Writer:
 
             path.write_text(html)
 
-            index.remove_junk()
-
     def write_deep(self, indexes: List[Index]):
         if len(indexes) <= 0:
             return

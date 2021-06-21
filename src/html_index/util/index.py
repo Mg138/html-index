@@ -52,10 +52,6 @@ class Index:
 
         return ''.join(strings)
 
-    def remove_junk(self):
-        for file in self.files:
-            file.remove_junk()
-
     def to_html(self, index_template: str, file_template: str) -> str:
         return index_template.replace('#DIR', self.path.as_posix()) \
             .replace('#TITLE', self.path.name) \
