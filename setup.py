@@ -14,7 +14,7 @@ setup(
     description='HTML file indexing generator.',
     long_description='A python script that generates index.html files for file indexing.',
     long_description_content_type="text",
-    url='https://github.com/Mg138/html-index',
+    url='https://github.com/Mg138/html_index',
     py_modules=['html_index'],
     packages=find_packages(),
     install_requires=[requirements],
