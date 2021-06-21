@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="html-index",
-    version="1.0.4",
+    version="1.0.5.1",
     author="Madeline Sparkle",
     author_email="muguang138@gmail.com",
     description="HTML file indexing generator.",

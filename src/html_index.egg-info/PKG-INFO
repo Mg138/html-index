@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: html-index
-Version: 1.0.4
+Version: 1.0.5.1
 Summary: HTML file indexing generator.
 Home-page: https://github.com/Mg138/html-index
 Author: Madeline Sparkle
@@ -56,7 +56,7 @@ index --title "檢索中: #DIR"
 ```
 
 ## Note
-It'll ignore any file that starts with a `.`
+It'll ignore any file that starts with a `.` or a `__`
 
 ## Customizing
 Under `html-index/assets`, there are several files.

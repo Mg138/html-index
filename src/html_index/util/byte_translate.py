@@ -11,7 +11,7 @@ def __rounding_div(a, b) -> float:
 
 def translate(count: int) -> str:
     if count is None:
-        return ""
+        return "-"
 
     if count >= __gb:
         return f"{__rounding_div(count, __gb)} GB"
@@ -22,4 +22,4 @@ def translate(count: int) -> str:
     elif count > 0:
         return f"{count} B"
     else:
-        return ""
+        return "-"

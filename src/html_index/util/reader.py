@@ -6,6 +6,11 @@ from .file import File
 import logging
 
 
+def check_invalid(path: Path):
+    name = path.name
+    return name.startswith('.') or name.startswith('__')
+
+
 def list_files(path: Path) -> List[File]:
     files = []
 
@@ -17,7 +22,7 @@ def list_files(path: Path) -> List[File]:
                 file.unlink()
             continue
 
-        if file.name.startswith('.'):
+        if check_invalid(path):
             continue
 
         f = File(file)

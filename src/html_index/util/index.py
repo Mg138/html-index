@@ -5,6 +5,7 @@ from typing import List
 from . import reader, icon_manager
 from .file import File
 from .icon import icon_folder, Icon
+from .reader import check_invalid
 
 
 class Index:
@@ -22,7 +23,7 @@ class Index:
 
         for directory in self.path.iterdir():
             if directory.is_dir():
-                if directory.name.startswith('.'):
+                if check_invalid(directory):
                     continue
                 sub_indexes.append(Index.read_from_path(directory))
         return sub_indexes
@@ -50,6 +51,10 @@ class Index:
             self.icon(file.icon)
 
         return ''.join(strings)
+
+    def remove_junk(self):
+        for file in self.files:
+            file.remove_junk()
 
     def to_html(self, index_template: str, file_template: str) -> str:
         return index_template.replace('#DIR', self.path.as_posix()) \

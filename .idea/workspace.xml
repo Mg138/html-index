@@ -20,8 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="875cf5d8-a56e-41d8-b809-e31e82696f67" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/html_index/util/url.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html_index.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index.egg-info/PKG-INFO" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html_index.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index.egg-info/SOURCES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html_index/util/byte_translate.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/util/byte_translate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html_index/util/file.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/util/file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html_index/util/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/util/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html_index/util/reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/util/reader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html_index/util/writer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/util/writer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +54,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/html_index/html_index.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Translating" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -54,7 +63,28 @@
       <recent name="D:\Files\Projects\Programming\General Projects\html-index\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.index">
+    <configuration name="index (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="html-index" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/html_index" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/html_index/index.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="index" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="html-index" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,6 +106,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.index (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -121,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624275431338</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="egg">
+      <created>1624275530444</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1624275530444</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,46 +182,50 @@
     <MESSAGE value="renamed" />
     <MESSAGE value="forgot to include assets.." />
     <MESSAGE value="finally works" />
-    <MESSAGE value="egg" />
     <MESSAGE value="moved requirements" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved requirements" />
+    <MESSAGE value="egg" />
+    <option name="LAST_COMMIT_MESSAGE" value="egg" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="194" width="1092" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624271748959">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="414" y="194" width="1092" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624271748959" />
-    <state x="644" y="341" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1624270471798">
+    <state x="644" y="341" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1624288897435">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="644" y="341" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624270471798" />
-    <state x="740" y="306" key="FileChooserDialogImpl" timestamp="1624271733958">
+    <state x="644" y="341" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624288897435" />
+    <state x="740" y="306" key="FileChooserDialogImpl" timestamp="1624286906651">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="740" y="306" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624271733958" />
-    <state width="1882" height="295" key="GridCell.Tab.0.bottom" timestamp="1624274863262">
+    <state x="740" y="306" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624286906651" />
+    <state width="1899" height="297" key="GridCell.Tab.0.bottom" timestamp="1624289386644">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1882" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624274863262" />
-    <state width="1882" height="295" key="GridCell.Tab.0.center" timestamp="1624274863262">
+    <state width="1899" height="297" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624289386644" />
+    <state width="1899" height="297" key="GridCell.Tab.0.center" timestamp="1624289386644">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1882" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624274863262" />
-    <state width="1882" height="295" key="GridCell.Tab.0.left" timestamp="1624274863262">
+    <state width="1899" height="297" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624289386644" />
+    <state width="1899" height="297" key="GridCell.Tab.0.left" timestamp="1624289386644">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1882" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624274863262" />
-    <state width="1882" height="295" key="GridCell.Tab.0.right" timestamp="1624274863262">
+    <state width="1899" height="297" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624289386644" />
+    <state width="1899" height="297" key="GridCell.Tab.0.right" timestamp="1624289386644">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1882" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624274863262" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1624266893764">
+    <state width="1899" height="297" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624289386644" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1624275541596">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624266893764" />
-    <state x="667" y="273" width="585" height="534" key="find.popup" timestamp="1624269555266">
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624275541596" />
+    <state x="667" y="273" width="585" height="534" key="find.popup" timestamp="1624289625879">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="667" y="273" width="585" height="534" key="find.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624269555266" />
+    <state x="667" y="273" width="585" height="534" key="find.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624289625879" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1624289967527">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624289967527" />
   </component>
 </project>

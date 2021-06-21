@@ -244,4 +244,5 @@ src/html_index/util/file.py
 src/html_index/util/icon.py
 src/html_index/util/index.py
 src/html_index/util/reader.py
+src/html_index/util/url.py
 src/html_index/util/writer.py
