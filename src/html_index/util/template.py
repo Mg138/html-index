@@ -1,4 +1,4 @@
-from src.html_index.util.assets import Assets
+from .assets import Assets
 
 
 class Template:

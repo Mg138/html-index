@@ -1,7 +1,7 @@
 import argparse
 from pathlib import Path
 
-from src.html_index.util.template import Template
+from .util.template import Template
 from .util import icon_manager
 from .util.assets import Assets
 from .util.index import Index
