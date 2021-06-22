@@ -14,6 +14,7 @@ src/html_index/assets/README.md
 src/html_index/assets/__file_template.html
 src/html_index/assets/__index_template.html
 src/html_index/assets/__init__.py
+src/html_index/assets/__url_template.html
 src/html_index/assets/generate_icon.py
 src/html_index/assets/icons.yml
 src/html_index/assets/__icons/actionscript.svg
@@ -244,5 +245,6 @@ src/html_index/util/file.py
 src/html_index/util/icon.py
 src/html_index/util/index.py
 src/html_index/util/reader.py
+src/html_index/util/template.py
 src/html_index/util/url.py
 src/html_index/util/writer.py

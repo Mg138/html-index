@@ -1,37 +1,25 @@
 import logging
 from typing import List
 
-from .assets import Assets
 from .index import Index
+from .template import Template
 
 
-class Writer:
-    def __init__(self, assets: Assets, title, parent_dir, filename, size, modified):
-        self.__icon_folder = assets.icon_folder()
+def write(template: Template, indexes: List[Index]):
+    for index in indexes:
+        path = index.path.joinpath('index.html')
+        logging.info(f"Writing {path}")
 
-        self.__index_template = assets.index_template() \
-            .read_text() \
-            .replace("{TITLE}", title) \
-            .replace("{PARENT}", parent_dir) \
-            .replace("{FILENAME}", filename) \
-            .replace("{SIZE}", size) \
-            .replace("{MODIFIED}", modified)
-        self.__file_template = assets.file_template().read_text()
+        html = index.to_html(template)
 
-    def write(self, indexes: List[Index]):
-        for index in indexes:
-            path = index.path.joinpath('index.html')
-            logging.info(f"Writing {path}")
+        path.write_text(html)
 
-            html = index.to_html(self.__index_template, self.__file_template)
 
-            path.write_text(html)
+def write_deep(template: Template, indexes: List[Index]):
+    if len(indexes) <= 0:
+        return
 
-    def write_deep(self, indexes: List[Index]):
-        if len(indexes) <= 0:
-            return
+    write(template, indexes)
 
-        self.write(indexes)
-
-        for index in indexes:
-            self.write_deep(index.list_sub_indexes())
+    for index in indexes:
+        write_deep(template, index.list_sub_indexes())

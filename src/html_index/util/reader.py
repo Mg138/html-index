@@ -22,7 +22,7 @@ def list_files(path: Path) -> List[File]:
                 file.unlink()
             continue
 
-        if check_invalid(file):
+        if file.name.startswith('.'):
             continue
 
         f = File(file)

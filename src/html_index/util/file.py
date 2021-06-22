@@ -3,37 +3,43 @@ from pathlib import Path
 
 from . import byte_translate, icon_manager, url
 from .icon import Icon
+from .template import Template
+
+
+def add_hidden_prefix(name: str) -> str:
+    if name.startswith('__'):
+        return name
+    return '.' + name
 
 
 class File:
     def __init__(self, path: Path):
-        if path.suffix == '.url':
-            self.path = path.parent.joinpath(path.stem)
-            self.is_url_file = True
-            self.url = url.get_url_from_path(path)
+        self.root = path.parent
+        self.is_dir = path.is_dir()
 
-            self.real_path = path
+        if path.suffix == '.url':
+            self.filename = path.stem
+            self.is_url_file = True
+            self.url = path.parent.joinpath(add_hidden_prefix(path.stem))
+
+            self.__url = url.get_url_from_path(path)
         else:
-            self.path = path
+            self.filename = path.name
             self.is_url_file = False
-            self.url = self.filename
+            self.url = path
 
     def __str__(self):
-        return self.path.__str__()
+        return self.url.__str__()
 
     @property
-    def is_dir(self) -> bool:
-        return self.path.is_dir()
+    def hidden(self) -> bool:
+        return self.filename.startswith('__')
 
     @property
     def extension(self) -> str:
         if self.is_dir:
             return '__folder'
-        return self.path.suffix[1:]
-
-    @property
-    def filename(self) -> str:
-        return self.path.name
+        return self.url.suffix[1:]
 
     @property
     def icon(self) -> Icon:
@@ -44,9 +50,9 @@ class File:
         if self.is_url_file:
             size = 0
         elif self.is_dir:
-            size = sum(f.stat().st_size for f in self.path.rglob('*') if f.is_file())
+            size = sum(f.stat().st_size for f in self.url.rglob('*') if f.is_file())
         else:
-            size = self.path.stat().st_size
+            size = self.url.stat().st_size
 
         return byte_translate.translate(size)
 
@@ -55,11 +61,21 @@ class File:
         if self.is_url_file:
             return '-'
 
-        return time.ctime(self.path.stat().st_mtime)
+        return time.ctime(self.url.stat().st_mtime)
 
-    def to_html(self, template: str) -> str:
-        return template.replace('#FILENAME', self.filename) \
-            .replace('#URL', self.url) \
+    def make_url_file(self, template: Template):
+        if not self.is_url_file:
+            return
+        html = template.url_template.replace('{URL}', self.__url)
+        if not self.url.exists():
+            self.url.mkdir()
+        self.url.joinpath('index.html').write_text(html)
+
+    def to_html(self, template: Template) -> str:
+        if self.is_url_file:
+            self.make_url_file(template)
+        return template.file_template.replace('#FILENAME', self.filename) \
+            .replace('#URL', self.url.relative_to(self.root).__str__()) \
             .replace('#ICON', self.icon.relative_path.as_posix()) \
             .replace('#SIZE', self.size) \
             .replace('#MODIFIED', self.modified)

@@ -16,3 +16,6 @@ class Assets:
 
     def file_template(self):
         return self.path.joinpath('__file_template.html')
+
+    def url_template(self):
+        return self.path.joinpath('__url_template.html')

@@ -1,10 +1,11 @@
 import argparse
 from pathlib import Path
 
+from src.html_index.util.template import Template
 from .util import icon_manager
 from .util.assets import Assets
 from .util.index import Index
-from .util.writer import Writer
+from .util.writer import write_deep
 
 
 def main():
@@ -45,17 +46,17 @@ def main():
     # init
     root = Path(__file__).parent
     assets = Assets(root.joinpath('assets'))
+    template = Template(
+        assets,
+        args.title, args.parent_dir, args.filename, args.size, args.modified
+    )
 
     icon_manager.read_icons(assets)
 
     # actual program
     path = Path(args.path)
     index = Index.read_from_path(path)
-    writer = Writer(
-        assets,
-        args.title, args.parent_dir, args.filename, args.size, args.modified
-    )
-    writer.write_deep([index])
+    write_deep(template, [index])
 
 
 if __name__ == "__main__":

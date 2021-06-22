@@ -6,6 +6,7 @@ from . import reader, icon_manager
 from .file import File
 from .icon import icon_folder, Icon
 from .reader import check_invalid
+from .template import Template
 
 
 class Index:
@@ -33,7 +34,7 @@ class Index:
 
         icon.copy_to(icon_path)
 
-    def files_to_html(self, template: str) -> str:
+    def files_to_html(self, template: Template) -> str:
         strings = []
 
         # create the icon folder
@@ -44,18 +45,21 @@ class Index:
         self.icon(icon_manager.go_up_icon)
 
         # sort by name
-        self.files.sort(key=lambda f: f.path.name)
+        self.files.sort(key=lambda f: f.filename)
         # sort folders to top
         self.files.sort(key=lambda f: not f.is_dir)
 
         for file in self.files:
-            strings.append(file.to_html(template))
+            html = file.to_html(template)
+
+            if not file.hidden:
+                strings.append(html)
 
             self.icon(file.icon)
 
         return ''.join(strings)
 
-    def to_html(self, index_template: str, file_template: str) -> str:
-        return index_template.replace('#DIR', self.path.as_posix()) \
+    def to_html(self, template: Template) -> str:
+        return template.index_template.replace('#DIR', self.path.as_posix()) \
             .replace('#TITLE', self.path.name) \
-            .replace('#FILES', self.files_to_html(file_template))
+            .replace('#FILES', self.files_to_html(template))
