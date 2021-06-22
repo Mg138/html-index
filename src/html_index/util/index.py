@@ -24,7 +24,7 @@ class Index:
 
         for directory in self.path.iterdir():
             if directory.is_dir():
-                if check_invalid(directory):
+                if directory.name.startswith('.'):
                     continue
                 sub_indexes.append(Index.read_from_path(directory))
         return sub_indexes
