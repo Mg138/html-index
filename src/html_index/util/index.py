@@ -43,7 +43,10 @@ class Index:
         # copy the go up icon
         self.icon(icon_manager.go_up_icon)
 
+        # sort by name
         self.files.sort(key=lambda f: f.path.name)
+        # sort folders to top
+        self.files.sort(key=lambda f: not f.is_dir)
 
         for file in self.files:
             strings.append(file.to_html(template))

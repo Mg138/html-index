@@ -22,7 +22,7 @@ def list_files(path: Path) -> List[File]:
                 file.unlink()
             continue
 
-        if check_invalid(path):
+        if check_invalid(file):
             continue
 
         f = File(file)

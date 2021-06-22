@@ -21,10 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="875cf5d8-a56e-41d8-b809-e31e82696f67" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html_index/assets/__file_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/assets/__file_template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html_index/util/file.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/util/file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html_index.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index.egg-info/PKG-INFO" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html_index/util/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/util/index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html_index/util/writer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/util/writer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html_index/util/reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/html_index/util/reader.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/html_index" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Translating" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -168,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624290376627</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fixed .url extra support">
+      <created>1624292848298</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1624292848298</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,7 +197,8 @@
     <MESSAGE value="moved requirements" />
     <MESSAGE value="egg" />
     <MESSAGE value="added .url extra support" />
-    <option name="LAST_COMMIT_MESSAGE" value="added .url extra support" />
+    <MESSAGE value="fixed .url extra support" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed .url extra support" />
   </component>
   <component name="WindowStateProjectService">
     <state x="255" y="245" width="1092" height="835" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624291363229">
@@ -205,26 +213,26 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="530" y="452" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624291361827" />
-    <state x="740" y="306" key="FileChooserDialogImpl" timestamp="1624291269802">
+    <state x="740" y="306" key="FileChooserDialogImpl" timestamp="1624292657374">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="740" y="306" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624291269802" />
-    <state width="1899" height="297" key="GridCell.Tab.0.bottom" timestamp="1624291284945">
+    <state x="740" y="306" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624292657374" />
+    <state width="1899" height="297" key="GridCell.Tab.0.bottom" timestamp="1624292989646">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="297" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624291284945" />
-    <state width="1899" height="297" key="GridCell.Tab.0.center" timestamp="1624291284945">
+    <state width="1899" height="297" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624292989646" />
+    <state width="1899" height="297" key="GridCell.Tab.0.center" timestamp="1624292989646">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="297" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624291284945" />
-    <state width="1899" height="297" key="GridCell.Tab.0.left" timestamp="1624291284944">
+    <state width="1899" height="297" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624292989646" />
+    <state width="1899" height="297" key="GridCell.Tab.0.left" timestamp="1624292989646">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="297" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624291284944" />
-    <state width="1899" height="297" key="GridCell.Tab.0.right" timestamp="1624291284945">
+    <state width="1899" height="297" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624292989646" />
+    <state width="1899" height="297" key="GridCell.Tab.0.right" timestamp="1624292989646">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="297" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624291284945" />
+    <state width="1899" height="297" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624292989646" />
     <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1624290381903">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
