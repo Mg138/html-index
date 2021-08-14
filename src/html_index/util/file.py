@@ -13,16 +13,21 @@ def add_hidden_prefix(name: str) -> str:
 
 
 class File:
+    def __url(self, path: Path):
+        self.filename = path.stem
+        self.is_url_file = True
+        self.url = path.parent.joinpath(add_hidden_prefix(path.stem))
+
+        self.__url = url.get_url_from_path(path)
+
     def __init__(self, path: Path):
         self.root = path.parent
         self.is_dir = path.is_dir()
 
-        if path.suffix == '.url':
-            self.filename = path.stem
-            self.is_url_file = True
-            self.url = path.parent.joinpath(add_hidden_prefix(path.stem))
-
-            self.__url = url.get_url_from_path(path)
+        if path.suffix == '.desktop' and url.is_desktop_link(path):
+            self.__url(path)
+        elif path.suffix == '.url':
+            self.__url(path)
         else:
             self.filename = path.name
             self.is_url_file = False

@@ -32,7 +32,8 @@ class Index:
     def icon(self, icon: Icon):
         icon_path = self.icon_folder.joinpath(icon.name)
 
-        icon.copy_to(icon_path)
+        if (not icon_path.exists()):
+            icon.copy_to(icon_path)
 
     def files_to_html(self, template: Template) -> str:
         strings = []
@@ -50,12 +51,12 @@ class Index:
         self.files.sort(key=lambda f: not f.is_dir)
 
         for file in self.files:
+            # to_html is still called for side effects
             html = file.to_html(template)
 
             if not file.hidden:
                 strings.append(html)
-
-            self.icon(file.icon)
+                self.icon(file.icon)
 
         return ''.join(strings)
 
