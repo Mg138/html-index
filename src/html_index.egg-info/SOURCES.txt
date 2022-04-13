@@ -1,7 +1,9 @@
+.gitignore
 LICENSE
 MANIFEST.in
 README.md
 setup.py
+src/html_index/.gitignore
 src/html_index/__init__.py
 src/html_index/index.py
 src/html_index.egg-info/PKG-INFO
