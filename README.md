@@ -40,6 +40,9 @@ index --title "檢索中: #DIR"
 ```
 
 ## Note
+You can create a file called `.indexignore` in the location that is being indexed
+containing a list of filenames to be ignored (one per line).
+
 Files started with `.` will be completely ignored.
 
 Files started with `__` will be processed, but will not show up in `index.html`. \
@@ -53,7 +56,6 @@ and it'll be shown as `abc` in the index
     > but if I don't want to show `abc.url` in the index \
 it should be renamed to `__abc.url` \
 so it'll still be looked at and wrapped, but not indexed.
-
 
 ## Customizing
 Under `html-index/assets`, there are several files.
